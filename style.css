@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+#logo{
+    height: 50px;
+    margin-left: 50px;
+}
+#menu{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+
+}
+h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h3:hover{
+    text-decoration: underline;
+}
+#bRegistr{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    background-color: grey;
+    border-radius: 15px; /*закругление*/
+    width: 120px;
+    text-align: center;
+    transition: 1s;/*растягивает слова*/
+}
+#bRegistr:hover{
+    cursor: pointer;
+    background-color: rgb(77, 77, 77);
+}
+#bEnter{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    background-color: burlywood;
+    border-radius: 15px; /*закругление*/
+    width: 60px;
+    text-align: center;
+    transition: 1s;/*растягивает слова*/
+}
+#bEnter:hover{
+    cursor: pointer;
+    background-color: rgb(82, 66, 45);
+}
+header{
+    position: absolute;/*поднимает слова*/
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(233, 227, 218, 0.418);
+    display: flex;/* растягивает по горизонтали*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+video{
+    position: fixed;/*фиксирует*/
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 123vh;
+}
+main{
+    position: absolute;
+    width: 100vw;
+    top: 20vh;/*расположение сверху*/
+}
+main h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(231, 213, 175);
+}
